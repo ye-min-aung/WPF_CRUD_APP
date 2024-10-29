@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.4" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ComponentResource\iComboBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ComponentResource\iDataGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ComponentResource\iDataGridDatePicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ComponentResource\iDatePicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ComponentResource\iFunctionButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ComponentResource\iListView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ComponentResource\iNumericTextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ComponentResource\iTextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ComponentResource\iTextBox_backup.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
